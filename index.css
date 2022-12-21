@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'Lato';
+    src: url("fonts/Lato-Black.ttf");
+}
+
+html , body{
+
+    height: 100%;
+
+}
+
+body{
+
+    margin: 0%;
+    font-family: 'Lato';
+    background-image: url("https://images.hdqwalls.com/wallpapers/car-minimalism-simple-art.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+
+}
+
+.main{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.header{
+
+    min-height: 93vh;
+    margin-top: 80px;
+    text-align: center;
+    color: #3C371A;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+.details{
+
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: black;
+    color: whitesmoke;
+    font-size: xx-large;
+    gap: 30px;
+    
+
+}
+
+.row{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fix-header{
+
+
+    padding-right: 100px;
+
+
+}
+
+.app{
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+.app-design{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.images {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.quote{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about{
+
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+
+
+}
+
+.contact{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.comm{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    padding-left: 100px;
+
+}
+
+.col1{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col2{
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+.reveal.active {
+    opacity: 1;
+}
+.active.fade-bottom {
+    animation: fade-bottom 0.5s ease-in;
+}
+
+.ani-typing{
+
+    width: 47%;
+    overflow : hidden;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    animation: 
+        typing 7s steps(1000,end)
+
+}
+
+@keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+@keyframes typing{
+
+    from { width : 0 }
+    to { width : 100%}
+
+
+}
+
+@keyframes cursor{
+
+    0%{
+
+        border-color: transparent; 
+    }
+    100%{
+
+        border-color: transparent;
+
+    }
+    50% { border-color: #3C371A;}
+
+}
